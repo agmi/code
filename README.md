@@ -1,4 +1,6 @@
-code
+Write Code Every Day
 ====
 
-write code every day
+> http://ejohn.org/blog/write-code-every-day/
+
+# Enjoy
