@@ -1,0 +1,39 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset='utf-8'>
+    <title>Object</title>
+</head>
+<body>
+<script src="test.js" type="text/javascript"></script>
+<script src="../lib/object.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	var a = {};
+
+	a.id = "Text";
+
+	a.func = function(){return null;};
+
+	a.list = [0,2,2];
+
+	a.age = 29;
+
+	a.isValid = false;
+
+	a.now = new Date();
+
+	a.reg = new RegExp('/test/g');
+
+	a.obj = {
+		txt : 'obj',
+		num : 10,
+		list2 : a.list,
+		isTrue : true
+	};
+
+	console.log(a);
+</script>
+</body>
+</html>
